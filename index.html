@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<link href="https://fonts.googleapis.com/css?family=Quicksand:300" rel="stylesheet">
+	<link href="main.css" rel="stylesheet" type="text/css">
+	<title> Greg's List</title>
+</head>
+
+<body>
+
+	<div class="greybar">
+		<h1> Greg's List </h1>
+		<nav class="pagecontent" role="navigation"> 
+			<a href="/post" class="link"> Post </a>
+			<a href="/account" class="link"> Account </a>
+		</nav>
+	</div>
+				
+	<section class="search-section"> <!-- why use a section here? had to look at solution got stuck-->
+		<form action="#"> <!-- review section bit for # documentation -->
+			<label for="search"> Search Jobs</label>
+			<input type="text" placeholder="Search software jobs" id="search"/>
+      		<input type="image" class="searchicon" src ="https://tf-assets-prod.s3.amazonaws.com/tf-curric/WEB-DEV-001/2.4.6_challenge_design_to_code/magnifying-glass.png" alt="Search" role="button" alt="search icon"> <!-- review for input type doc..why use img as icon -->
+    	</form>
+	</section> 
+
+	<nav class="navigation" role="navigation"> <!-- clarification nav bar can be anywhere.. design?multiple navs? page content also has navigation...-->
+		<a class="button">prev </a>
+			<span class="middlepart"> 1 to 100 of 179 </span>
+			<a class="button"> next </a> 
+	</nav>
+
+
+	<main role="main">
+		<ul class="listings">
+			<li class="listing">
+				<span class="date"> June 22</span><!-- why use a span here? -->
+				<a href="#" style="color:blue" class="title"> <b>Technical Proj Manager</b> </a>
+				<span class="location"> Midtown East</span>
+			</li>
+
+
+			<li class="listing">
+				<span class="date"> June 21</span>
+				<a href="#" style="color:blue" class="title"> <b>Front End Dev </b></a>
+				<span class="location"> SoHo</span>
+			</li>
+
+			<li class="listing">
+				<span class="date"> June 20</span>
+				<a href="#" style="color:blue" class="title"> <b>Sen. Python Dev/ Cofounder</b></a>
+				<span class="location"> Flatiron School</span>
+			</li>
+		</ul>
+	</main>
+
+</body>
+</html>
