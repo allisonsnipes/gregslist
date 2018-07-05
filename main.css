@@ -11,30 +11,37 @@ body {
 }
 
 .greybar {
-  background-color: #D3D3D3;
-  top: 0px;
   position: fixed;
+  top: 0px;
   left: 0px;
   right: 0px;
-  margin-bottom: 20px;  /* trying to make space for the search jobs to move down...*/
+  padding: 10px;
+
+  background-color: #eeeeee;
+  border-bottom: 1px solid #dddddd;
 }
 
-.form {
-	margin: 20px;
+.top-nav {
+
 }
 
-.link {  /* i am not sure why my links are on top of each other....*/
+.top-nav {
   position: absolute;
-  right: 5px;
+  right: 10px;
   top: 10px;
-  padding-right: 5px;
-  padding-left: 5px;
-  margin: 10px;
+}
+
+.nav-link {  /* i am not sure why my links are on top of each other....*/
+  font-size: 18px;
+  padding: 0 6px;
 }
 
 a {  /* struggling with alignment... */
-	padding: 10px;
-	margin-right: auto;
+	text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline; 
 }
 
 .search-section {
@@ -84,9 +91,4 @@ label {
   font-size: 16px;
   display: inline-block;
   padding: 8px 15px;
-}
-
-a:link {
-	color: purple;
-	 
 }

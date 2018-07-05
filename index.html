@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width">
-	<link href="https://fonts.googleapis.com/css?family=Quicksand:300" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
 	<link href="main.css" rel="stylesheet" type="text/css">
 	<title> Greg's List</title>
 </head>
@@ -11,14 +11,18 @@
 <body>
 
 	<div class="greybar">
-		<h1> Greg's List </h1>
-		<nav class="pagecontent" role="navigation"> 
-			<a href="/post" class="link"> Post </a>
-			<a href="/account" class="link"> Account </a>
+
+		<a class="logo">
+			<h1> Greg's List </h1>
+		</a>
+
+		<nav class="top-nav" role="navigation"> 
+			<a href="/post" class="nav-link"> Post </a>
+			<a href="/account" class="nav-link"> Account </a>
 		</nav>
 	</div>
 				
-	<section class="search-section"> <!-- why use a section here? had to look at solution got stuck-->
+	<section class="search-section"> <!-- why use a section? had to look at solution got stuck-->
 		<form action="#"> <!-- review section bit for # documentation -->
 			<label for="search"> Search Jobs</label>
 			<input type="text" placeholder="Search software jobs" id="search"/>
