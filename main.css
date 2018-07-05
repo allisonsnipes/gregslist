@@ -108,4 +108,15 @@ label {
   border-right: 1px solid #dddddd;
 }
 
+.listings {
+  padding: 0;
+}
 
+.listing {
+  list-style: none;
+  margin-bottom: 15px;
+}
+
+.listing-date, .listing-location {
+  color: #999;
+}
