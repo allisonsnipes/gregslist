@@ -16,13 +16,8 @@ body {
   left: 0px;
   right: 0px;
   padding: 10px;
-
   background-color: #eeeeee;
   border-bottom: 1px solid #dddddd;
-}
-
-.top-nav {
-
 }
 
 .top-nav {
@@ -31,7 +26,7 @@ body {
   top: 10px;
 }
 
-.nav-link {  /* i am not sure why my links are on top of each other....*/
+.nav-link {  /* i am not sure why my links are on top of each other - no absolute....*/
   font-size: 18px;
   padding: 0 6px;
 }
@@ -42,6 +37,11 @@ a {  /* struggling with alignment... */
 
 a:hover {
   text-decoration: underline; 
+}
+
+.logo {
+  display: inline-block;
+  font-weight: 800;
 }
 
 .search-section {
